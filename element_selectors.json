@@ -3,20 +3,14 @@
         "types": {
             "Timeline Posts": {
                 "url": "",
-                "element_xpath": "(//*[@class='j83agx80 cbu4d94t'])/div/div/div/div/div[2]/div",
+                "element_xpath": "(//*[@class='alzwoclg cqf1kptm'])/div/div/div/div/div[8]/div",
                 "file_name": "Page Posts"
             }
         },
         "other_selectors": {
-            "post_owner": "./div[2]/div/div[2]/div/div[1]//a",
-            "post_owner_link": "./div[2]/div/div[2]/div/div[1]//a",
-            "post_text": "./div[3]",
-            "contains_links": "./div[3]/descendant::a",
-            "post_link": "./div[2]/div/div[2]/div/div[2]//a",
-            "post_date": "./div[2]/div/div[2]/div/div[2]//a",
-            "reacts_count": "./div[last()]/div/div/div/div/div[1]/div/div[1]",
-            "comments_and_shares_count": "./div[last()]/div/div/div/div/div[1]/div/div[2]/div",
-            "only_shares_count": "./div[last()]/div/div/div/div/div[1]/div/div[3]/div"
+            "post_text": "./div[3]/div[1]/div/div/div/span/div[1]/div",
+            "post_link": "./div[2]/div/div[2]/div/div[2]/span/span/span[2]/span/a",
+            "post_date": "./div[2]/div/div[2]/div/div[2]/span/span/span[2]/span/a"
         }
     },
     "other_script_selectors": {
